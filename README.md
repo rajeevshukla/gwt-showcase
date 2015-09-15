@@ -1,5 +1,6 @@
-# gwt-showcase
-Google Web tool kit show case 
- ===
+
+# Google Web tool kit show-case 
  
-  T
+   This repository contains program realted to GWT. 
+ 
+  
