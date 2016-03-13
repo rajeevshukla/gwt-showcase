@@ -11,7 +11,7 @@ import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 
-public class GetDataViewImpl<T> extends Composite implements GetDataView<T> {
+public class GetDataViewImpl extends Composite implements GetDataView {
 
 	private static GetDataViewImplUiBinder uiBinder = GWT.create(GetDataViewImplUiBinder.class);
 
@@ -32,7 +32,7 @@ public class GetDataViewImpl<T> extends Composite implements GetDataView<T> {
 
 	@UiHandler("button")
 	void onClick(ClickEvent e) {
-		Window.alert("Hello!");
+		Window.alert("You clicked me ");
 	}
 
 	public void setText(String text) {

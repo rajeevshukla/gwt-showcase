@@ -1,9 +1,14 @@
 package com.demo.mvp.client.getdata;
 
-public interface GetDataView<T> {
+import com.google.gwt.user.client.ui.IsWidget;
+
+public interface GetDataView  extends IsWidget{
 
 	
 	public interface Presenter { 
 		
 	}
+	
+	
+
 }
