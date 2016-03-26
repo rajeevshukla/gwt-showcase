@@ -1,5 +1,9 @@
 package com.demo.contacts.client.presenter;
 
-public interface Presenter {
+import com.google.gwt.user.client.ui.Panel;
 
+public interface Presenter {
+	
+	public void bind();
+	public void go(Panel panel);
 }

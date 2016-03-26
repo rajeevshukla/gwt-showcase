@@ -15,7 +15,7 @@ public class AddContactEvent  extends GwtEvent<AddContactEventHandler>{
 	
 	@Override
 	public com.google.gwt.event.shared.GwtEvent.Type<AddContactEventHandler> getAssociatedType() {
-		return null;
+		return getTypes();
 	}
 
 
