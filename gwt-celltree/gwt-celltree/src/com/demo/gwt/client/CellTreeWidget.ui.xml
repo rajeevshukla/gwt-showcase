@@ -1,0 +1,25 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:c='urn:import:com.google.gwt.user.cellview.client'
+	>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	.left {
+	 
+	 }
+	</ui:style>
+	<g:HTMLPanel>
+	
+	 <g:InlineLabel styleName="'{style.important}'">Manage Features</g:InlineLabel>
+	 <g:FlowPanel styleName="'{style.left}'" > <g:Button text="Expand All" ui:field="expandAll"></g:Button> <g:Button text="Collaps All" ui:field="collapseAll"></g:Button></g:FlowPanel>
+     <c:CellTree ui:field="cellTree"> 
+     
+     </c:CellTree>
+	
+	
+	
+	</g:HTMLPanel>
+</ui:UiBinder> 
